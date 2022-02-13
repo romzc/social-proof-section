@@ -32,8 +32,6 @@ body {
 }
 
 .header-container {
-
-
     display: flex;
     justify-content: space-between;
     width: 74%;
@@ -170,4 +168,70 @@ p {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 800px) {
+
+    body {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header p {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header {
+        width: 74%;
+        margin-top: 2rem;
+    }
+
+    .star {
+        width: 74%;
+    }
+    .star ul li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .star ul li span {
+        width: 5.3rem;
+        height: 2rem;
+    }
+
+    .star ul li:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .star ul li:nth-child(2) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .star ul li:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    
+    .attribution {
+        position: relative;
+        margin: 1rem;
+        bottom: 10px;
+    }
 }

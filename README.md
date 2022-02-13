@@ -14,7 +14,7 @@ This project will test your layout skills. If you're starting to get confident w
 
 ## Links
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://github.com/romzc/social-proof-section#overview)
 
 ## Author
-- Frontend Mentor -[@romzc](https://github.com/romzc/social-proof-section)
+- Frontend Mentor -[@romzc](https://github.com/romzc/)
