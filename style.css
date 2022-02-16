@@ -73,7 +73,7 @@ body {
 ul li span {
     background-image: url('./images/icon-star.svg');
     background-repeat: repeat-x;
-    width: 5.3rem;
+    min-width: 5.3rem;
     margin-right: 1rem;
 }
 
